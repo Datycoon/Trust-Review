@@ -2,7 +2,7 @@
 
 This module contains the code for flask app.
 """
-from flask import Flask, render_template, request
+from flask import Flask, render_docs, request
 from flask_cors import cross_origin
 from database import DataBase
 from logger import AppLogger
@@ -19,7 +19,7 @@ app_log = AppLogger().get_logger(name="app_log")
 @app.route("/", methods=["GET", "POST"])
 def homepage():
     """Render homepage."""
-    return render_template("index.html")
+    return render_docs("index.html")
 
 
 @app.route("/scrap", methods=["POST"])
@@ -54,7 +54,7 @@ def scrap():
                     }
                 )
 
-            return render_template(
+            return render_docs(
                 "result.html",
                 reviews=review_dict,
                 pie_chart=pie_chart,
