@@ -20,19 +20,22 @@ TRUST Reviews  is a web scraping tool designed to extract product reviews from v
 ## Introduction
 The Flask Product Review Scraper project is designed to scrape and display product reviews from popular e-commerce websites such as Amazon Flipkart. The purpose of the project is to provide users with a convenient way to gather and analyze reviews for various products without having to visit multiple websites manually.
 
+![Example screenshot](./screen/trust.PNG)
+
+
 ## Goals
 
 Ease of Use: The project aims to provide a user-friendly interface where users can easily search for product reviews and view them in a structured format.
 Data Accuracy: Ensuring that the scraped reviews are accurate and up-to-date is crucial. The project utilizes web scraping techniques to extract data directly from the source websites, ensuring the accuracy of the information provided.
 Customization: Users have the flexibility to search for reviews of any product by entering the product name into the search bar. The project aims to be versatile and adaptable to different user needs
 
+
+
+
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
-  - Subfeature 1
-  - Subfeature 2
+
+
 
 ## Installation
 
