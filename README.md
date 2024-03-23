@@ -1,0 +1,1 @@
+Review Scraper is a web scraping tool designed to extract product reviews from various online platforms. It automates the process of collecting and organizing reviews, providing users with valuable insights into product performance and consumer sentiment.
